@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8816B8C1258966300057A16D /* BikeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8816B8C0258966300057A16D /* BikeEntity.swift */; };
 		88EC7F2A25799C6800B45155 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EC7F2925799C6800B45155 /* AppDelegate.swift */; };
 		88EC7F2C25799C6800B45155 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EC7F2B25799C6800B45155 /* SceneDelegate.swift */; };
 		88EC7F2E25799C6800B45155 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EC7F2D25799C6800B45155 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8816B8C0258966300057A16D /* BikeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeEntity.swift; sourceTree = "<group>"; };
 		88EC7F2625799C6800B45155 /* BikeRenting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeRenting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EC7F2925799C6800B45155 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88EC7F2B25799C6800B45155 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8816B8C32589663A0057A16D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8816B8C0258966300057A16D /* BikeEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8816B8C52589664E0057A16D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88EC7F2F25799C6800B45155 /* Main.storyboard */,
+				88EC7F3725799C6C00B45155 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8816B8C6258966600057A16D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88EC7F2D25799C6800B45155 /* ViewController.swift */,
+				88EC7F4125799EA600B45155 /* TableCell */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		88EC7F1D25799C6800B45155 = {
 			isa = PBXGroup;
 			children = (
@@ -64,11 +92,10 @@
 			children = (
 				88EC7F2925799C6800B45155 /* AppDelegate.swift */,
 				88EC7F2B25799C6800B45155 /* SceneDelegate.swift */,
-				88EC7F2D25799C6800B45155 /* ViewController.swift */,
-				88EC7F4125799EA600B45155 /* TableCell */,
-				88EC7F2F25799C6800B45155 /* Main.storyboard */,
+				8816B8C32589663A0057A16D /* Model */,
+				8816B8C52589664E0057A16D /* View */,
+				8816B8C6258966600057A16D /* Controller */,
 				88EC7F3525799C6C00B45155 /* Assets.xcassets */,
-				88EC7F3725799C6C00B45155 /* LaunchScreen.storyboard */,
 				88EC7F3A25799C6C00B45155 /* Info.plist */,
 				88EC7F3225799C6800B45155 /* BikeRenting.xcdatamodeld */,
 			);
@@ -156,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88EC7F4425799EC400B45155 /* TableViewCell.swift in Sources */,
+				8816B8C1258966300057A16D /* BikeEntity.swift in Sources */,
 				88EC7F2E25799C6800B45155 /* ViewController.swift in Sources */,
 				88EC7F2A25799C6800B45155 /* AppDelegate.swift in Sources */,
 				88EC7F3425799C6800B45155 /* BikeRenting.xcdatamodeld in Sources */,
