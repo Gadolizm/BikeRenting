@@ -14,4 +14,5 @@ struct BikeEntity {
     var availability : Bool
     var rentFrom : Date
     var rentTo : Date
+    var income : Int
 }
